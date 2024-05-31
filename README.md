@@ -66,6 +66,16 @@ For Arduino IDE:
 
 - The 2 sensor setup provides basic left-right feedback.
 - The 3 sensor setup adds a center sensor for more nuanced distance detection and feedback.
-## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+
+## Authors
+
+- [@nomankhokhar](https://www.github.com/nomankhokhar)
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## 🚀 About Me
+
+I'm a full Stack Developer...
