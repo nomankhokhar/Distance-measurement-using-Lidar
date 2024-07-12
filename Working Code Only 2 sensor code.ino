@@ -1,44 +1,4 @@
- /*
-  * Original Library soruce: https://github.com/adafruit/Adafruit_VL53L0X
-  * 
- * Using 2 VL53L0X Laser Distance Sensors
- * 
- * 
- * Watch video instructions for this code: https://youtu.be/0glBk917HPg
- * 
-Updated by Ahmad Shamshiri in April 2020
- 
- * in Ajax, Ontario, Canada. www.robojax.com
- * 
-  Need wiring diagram from this code:  https://youtu.be/0glBk917HPg
-  Purchase My Arduino course on Udemy.com http://robojax.com/L/?id=62
- * 
-
- * Get this code and other Arduino codes from Robojax.com
-Learn Arduino step by step in structured course with all material, wiring diagram and library
-all in once place. Purchase My course on Udemy.com http://robojax.com/L/?id=62
-
-If you found this tutorial helpful, please support me so I can continue creating 
-content like this. You can support me on Patreon http://robojax.com/L/?id=63
-
-or make donation using PayPal http://robojax.com/L/?id=64
-
- *  * This code is "AS IS" without warranty or liability. Free to be used as long as you keep this note intact.* 
- * This code has been download from Robojax.com
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
-#include "Adafruit_VL53L0X.h"
+ #include "Adafruit_VL53L0X.h"
 
 // address we will assign if dual sensor is present
 #define LOX1_ADDRESS 0x30
