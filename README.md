@@ -1,6 +1,6 @@
 # Distance-measurement-using-Lidar
 
-This repository contains code for distance measurement using Time-of-Flight (ToF) sensors, providing haptic feedback via vibratory motors. The project involves 2 and 3 sensor setups to demonstrate various configurations and applications.
+This repository contains code for distance measurement using Time-of-Flight (ToF) sensors, providing haptic feedback via vibratory motors. The project involves 2 sensor setups to demonstrate various configurations and applications.
 
 ## Table of Contents
 
@@ -14,23 +14,22 @@ This repository contains code for distance measurement using Time-of-Flight (ToF
 
 ## Overview
 
-This project demonstrates the use of Time-of-Flight (ToF) sensors for precise distance measurement. It includes configurations for both 2 and 3 sensor setups, integrating vibratory motor haptic feedback to provide tactile responses based on distance readings.
+This project demonstrates the use of Time-of-Flight (ToF) sensors for precise distance measurement. It includes configurations for both 2 sensor setups, integrating vibratory motor haptic feedback to provide tactile responses based on distance readings.
 
 ## Hardware Requirements
 
 - Time-of-Flight (ToF) sensors (e.g., VL53L0X, VL53L1X)
-- Microcontroller (e.g., Arduino, ESP32, Raspberry Pi)
+- Microcontroller (e.g., Arduino, ESP32)
 - Vibratory motors
 - Connecting wires
 - Breadboard or PCB for prototyping
-- Power supply
 
 ## Software Requirements
 
 - Arduino IDE or PlatformIO
 - Required libraries:
   - Wire
-  - VL53L0X or VL53L1X library
+  - VL53L0X or VL53L1X library (Already given in Library Folder)
   - Adafruit Motor library (if using Adafruit vibratory motors)
 
 ## Installation
